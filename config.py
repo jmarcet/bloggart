@@ -1,18 +1,18 @@
 # Name of the blog
-blog_name = "Nick's Blog"
+blog_name = "Javier Marcet's Blog"
 
 # Your name (used for copyright info)
-author_name = 'Nick Johnson'
+author_name = 'Javier Marcet'
 
 # (Optional) slogan
-slogan = 'because repeating myself sucks'
+slogan = "Yet another geek's blog"
 
 # The hostname this site will primarially serve off (used for Atom feeds)
-host = 'blog.notdot.net'
+host = 'www.marcet.info'
 
 # Selects the theme to use. Theme names correspond to directories under
 # the 'themes' directory, containing templates and static content.
-theme = 'default'
+theme = 'coolblue'
 
 # List of page templates
 page_templates = {
@@ -48,13 +48,13 @@ html_mime_type = "text/html; charset=utf-8"
 
 # To use disqus for comments, set this to the 'short name' of the disqus forum
 # created for the purpose.
-disqus_forum = 'notdot-blog'
+disqus_forum = 'marcetinfo'
 
 # Length (in words) of summaries, by default
 summary_length = 200
 
 # If you want to use Google Analytics, enter your 'web property id' here
-analytics_id = 'UA-84449-3'
+analytics_id = 'UA-24810304-1'
 
 # If you want to use PubSubHubbub, supply the hub URL to use here.
 hubbub_hub_url = 'http://pubsubhubbub.appspot.com/'
@@ -93,7 +93,7 @@ feed_proxy = None
 # To use Google Friends Connect.                                          
 # If you want use Google Friends Connect, go to http://www.google.com/friendconnect/ 
 # and register your domain for get a Google Friends connect ID.
-google_friends_id = None
+google_friends_id = '08239032679823813223'
 google_friends_comments = True # For comments.
 google_friends_members  = True # For a members container.
 
