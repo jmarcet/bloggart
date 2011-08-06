@@ -57,7 +57,7 @@
           <h3>{{sidebar.0}}</h3>
           <ul>
             {% for entry in sidebar.1 %}
-              <li>{{entry}}</li>
+              <li><a href="{{entry.1}}">{{entry.0}}</a></li>
             {% endfor %}
           </ul>
         </div>
