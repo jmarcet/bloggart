@@ -15,6 +15,16 @@
   <p class="postmeta">
     <span class="date">{{post.published_tz|date:config.date_format}}</span>
   </p>
+  <p>
+  <span  class='st_plusone_button' ></span>
+  <span  class='st_fblike_hcount' ></span>
+  <span  class='st_twitter_button' displayText='Tweet'></span>
+  <span  class='st_facebook_button' displayText='Facebook'></span>
+  <span  class='st_linkedin_button' displayText='LinkedIn'></span>
+  <span  class='st_meneame_button' displayText='Meneame'></span>
+  <span  class='st_digg_button' displayText='Digg'></span>
+  <span  class='st_email_button' displayText='Email'></span>
+  </p>
   {% if prev %}
     <a id="prev" href="{{config.url_prefix}}{{prev.path}}">Previous Post</a>
   {% endif %}
