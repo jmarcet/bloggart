@@ -1,4 +1,4 @@
-application: notdot-blog
+application: marcetinfo
 version: bloggart
 runtime: python
 api_version: 1
