@@ -30,15 +30,12 @@ post_path_format = '/%(year)d/%(month)02d/%(slug)s'
 # A nested list of sidebar menus, for convenience. If this isn't versatile
 # enough, you can edit themes/default/base.html instead.
 sidebars = [
-  ('Blogroll', [
-  ('The O-Kay-Blog Home', 'http://www.theokayblog.com'),
-  ('The Bloggart', 'http://blog.notdot.net/2009/10/Writing-a-blog-system-on-App-Engine'),
-  ]),
-  ('Code and Docs', [
-  ('The O-Kay-Blog Project','http://code.google.com/p/theokayblog/'),
-  ('Kay Framework','http://code.google.com/p/kay-framework/'),
-  ('Kay Quickstart', 'http://kay-docs.shehas.net/quickstart.html'),
-  ('Kay User Group', 'http://groups.google.com/group/kay-users?pli=1'),
+  ('Sites to follow', [
+	('Ars Technica','http://arstechnica.com/'),
+	('Kernel Planet','http://kernelplanet.org/'),
+	('Phoronix','http://www.phoronix.com/'),
+	('Planet Gentoo','http://planet.gentoo.org/'),
+	('The H Online','http://www.h-online.com/'),
   ]),
 ]
 
