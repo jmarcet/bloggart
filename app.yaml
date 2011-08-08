@@ -36,5 +36,9 @@ handlers:
   static_files: content/\1
   upload: content/.*
 
+- url: /common/(.*)
+  static_files: themes/common/\1
+  upload: themes/common/.*
+
 - url: /.*
   script: static.py
