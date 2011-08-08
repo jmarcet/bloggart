@@ -12,7 +12,7 @@ host = 'www.marcet.info'
 
 # Selects the theme to use. Theme names correspond to directories under
 # the 'themes' directory, containing templates and static content.
-theme = 'coolblue'
+theme = 'default'
 
 # List of page templates
 page_templates = {
@@ -92,9 +92,10 @@ feed_proxy = None
 # To use Google Friends Connect.                                          
 # If you want use Google Friends Connect, go to http://www.google.com/friendconnect/ 
 # and register your domain for get a Google Friends connect ID.
-google_friends_id = '08239032679823813223'
-google_friends_comments = True # For comments.
-google_friends_members  = True # For a members container.
+google_friends_id = None
+#google_friends_id = '08239032679823813223'
+google_friends_comments = False # For comments.
+google_friends_members  = False # For a members container.
 
 # To format the date of your post.
 # http://docs.djangoproject.com/en/1.1/ref/templates/builtins/#now
