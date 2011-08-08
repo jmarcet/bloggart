@@ -19,15 +19,13 @@
   <!-- Include the Google Friend Connect javascript library. -->
   <script type="text/javascript" src="http://www.google.com/friendconnect/script/friendconnect.js"></script>
   {% endif %}
-  <link href="/static/{{config.theme}}/css/prettify.css" type="text/css" rel="stylesheet" />
-  <script type="text/javascript" src="/static/{{config.theme}}/prettify.js"></script>
   <script type="text/javascript">var switchTo5x=true;</script>
   <script type="text/javascript" src="http://w.sharethis.com/button/buttons.js"></script>
   <script type="text/javascript">stLight.options({publisher:'db9f5838-d980-4383-8816-1493d5358e13'});</script>
 
   {% block head %}{% endblock %}
 </head>
-<body onload="prettyPrint()">
+<body>
 	<div id="header-wrap"><div id="header" class="container_16">						
 		<h1 id="logo-text"><a href="{{config.url_prefix}}/" title="">{{config.blog_name}}</a></h1>		
 		<p id="intro">{{config.slogan}}</p>
